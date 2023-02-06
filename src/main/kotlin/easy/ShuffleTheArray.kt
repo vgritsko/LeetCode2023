@@ -2,7 +2,7 @@ package easy
 
 //1470. Shuffle the Array
 //https://leetcode.com/problems/shuffle-the-array/
-class Solution {
+class Solution_shuffle {
     fun shuffle(nums: IntArray, n: Int): IntArray {
         val newArray = IntArray(nums.size)
         var j = 0
