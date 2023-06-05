@@ -1,7 +1,11 @@
-import easy.Solution_twoSum
+import easy.SolutionBinarySearch
+import kotlin.math.roundToInt
 
-fun main(args: Array<String>) {
+fun main() {
+    val nums = intArrayOf(-1,0,3)
+    val res = SolutionBinarySearch().search(nums,3)
 
-    val input = intArrayOf(3,2,4)
-    val res = Solution_twoSum().twoSum(input, 6)
+    println(res)
 }
+
+
