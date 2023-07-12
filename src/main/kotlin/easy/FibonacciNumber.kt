@@ -1,5 +1,5 @@
 package easy
-https://leetcode.com/problems/fibonacci-number/
+//https://leetcode.com/problems/fibonacci-number/
 class FibonacciNumber {
     fun fib(n: Int): Int {
         val vals = IntArray(n + 2)
