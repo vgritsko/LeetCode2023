@@ -1,10 +1,10 @@
 import easy.*
+import medium.FirstLastPositionElement
 
 fun main() {
-    val res = FinalValueVariableAfterPerformingOperations()
-        .finalValueAfterOperations(arrayOf("++X","++X","X++"))
-    println(res)
-
+   FirstLastPositionElement().searchRange(intArrayOf(2,2),2)
 }
+
+
 
 
