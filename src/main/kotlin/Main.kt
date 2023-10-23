@@ -2,7 +2,7 @@ import easy.*
 import medium.FirstLastPositionElement
 
 fun main() {
-   FirstLastPositionElement().searchRange(intArrayOf(2,2),2)
+  SquaresSortedArray().sortedSquares(intArrayOf(-7,-3,2,3,11))
 }
 
 
