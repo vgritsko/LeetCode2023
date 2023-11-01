@@ -1,10 +1,10 @@
 import easy.*
+import medium.FirstLastPositionElement
 
 fun main() {
-    val res = FinalValueVariableAfterPerformingOperations()
-        .finalValueAfterOperations(arrayOf("++X","++X","X++"))
-    println(res)
-
+  SquaresSortedArray().sortedSquares(intArrayOf(-7,-3,2,3,11))
 }
+
+
 
 
